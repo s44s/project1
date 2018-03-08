@@ -78,7 +78,7 @@
 			mymap.scrollWheelZoom.disable();
 
 			// loading GeoJSON file - Here my html and usa_adm.geojson file resides in same folder
-				$.getJSON("amsterdam-stadsdelen.geoJSON", function (stadsdelen) {
+				$.getJSON("amsterdam-stadsdelen.geojson", function (stadsdelen) {
 
 					var allStadsdelenJSONArray = [];
 
